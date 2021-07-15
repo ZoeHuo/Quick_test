@@ -1,0 +1,50 @@
+
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+
+
+
+</head>
+<body>
+
+<form method = "POST" action = "/">
+
+  <label for="avg_coupon_discount">avg_coupon_discount:</label><br>
+  <input type = "number" step = "any" name = "avg_coupon_discount" value= 1 /><br>
+  
+  <label for="month_trans_ave">month_trans_ave:</label><br>
+  <input type = "number" step = "any" name = "month_trans_ave" value= 1 ><br>
+
+  <label for="avg_use_other_discount">avg_use_other_discount:</label><br> 
+  <input type = "number" step = "any" name = "avg_use_other_discount" value= 1 ><br>
+
+  <label for="cus_Fuel">cus_Fuel:</label><br> 
+  <input type = "number" step = "any" name = "cus_Fuel" value= 1 ><br>
+
+  <label for="cus_Established">cus_Established:</label><br> 
+  <input type = "number" step = "any" name = "cus_Established" value= 1 ><br>
+
+  <label for="cus_Meat">cus_Meat:</label><br> 
+  <input type = "number" step = "any" name = "cus_Meat" value= 1 ><br>
+
+  <label for="income_bracket_income_11">income_bracket_income_11:</label><br> 
+  <input type = "number" step = "any"  name = "income_bracket_income_11" value= 1 ><br>
+  <label for="brand_type_Local">brand_type_Local:</label><br> 
+  <input type = "number" step = "any"  name = "brand_type_Local" value= 1 ><br>
+
+  <label for="income_bracket_income_12">income_bracket_income_12:</label><br> 
+  <input type = "number" step = "any" name = "income_bracket_income_12" value= 1 ><br>
+
+  <input type="submit" value="Submit">
+
+   <br><br>
+ </form>
+  {% if pred %}
+  <p> The redemption probability is {{pred}} </p>
+  {% endif %}
+
+ </body>
+
+</html>
